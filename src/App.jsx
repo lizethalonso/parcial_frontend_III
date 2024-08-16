@@ -1,12 +1,13 @@
-import Card from "./Card";
+
+import Form from "./components/Form";
+
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
+      <h2>Queremos saber sobre tí!</h2>
+      <Form/>
     </div>
   );
 }
